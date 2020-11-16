@@ -37,7 +37,6 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
       - ./ssl/server.crt:/etc/ssl/certs/nginx/server.crt
       - ./ssl/server.key:/etc/ssl/certs/nginx/server.key
-      - ./ssl/certificate.pem:/etc/ssl/certs/nginx/certificate.pem
     ports:
       - 80:80
       - 443:443
